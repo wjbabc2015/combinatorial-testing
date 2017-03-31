@@ -151,7 +151,7 @@ end
 
 accuracy_ave_10CV = sum(accuracy_10_folder)/10;
 
-%result(index, size(result, 2)) = accuracy_ave_10CV;
+result(index, size(result, 2)) = accuracy_ave_10CV;
 
 %confusion_matrix_plot;
 
